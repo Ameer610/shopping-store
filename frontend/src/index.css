@@ -16,3 +16,19 @@ header {
   text-decoration: none;
   font-weight: bold;
  }
+ .products {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+ }
+ .product{
+  border: 1px #404140 solid;
+  margin: 1rem;
+}
+ .product img{
+  width: 100%;
+  max-width: 400px;
+ }
+ .product-info {
+  margin: 1rem;
+ }
